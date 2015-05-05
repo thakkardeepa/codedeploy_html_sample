@@ -1,4 +1,5 @@
 #!/bin/bash
+service httpd stop
 service nginx start
 cat /dev/urandom &> /home/ec2-user/testing3 &
 cat /dev/urandom &> /home/ec2-user/testing2 &
