@@ -3,8 +3,6 @@ os: linux
 files:
   - source: /index.html
     destination: /usr/share/nginx/html
-  - source: /index2.html
-    destination: /usr/share/nginx/html
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
