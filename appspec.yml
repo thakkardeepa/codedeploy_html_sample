@@ -1,7 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /usr/share/nginx2/html
+  - source: /
+    destination: /var/www/qa/api
+permissions:
+  - object: /var/www/qa/api
+    owner: apache
+    group: apache
 hooks:
-
