@@ -1,10 +1,9 @@
-version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/qa/api
+    destination: /var/www/qa/clouddecor
 permissions:
-  - object: /var/www/qa/api
+  - object: /var/www/qa/clouddecor
     owner: apache
     group: apache
 hooks:
