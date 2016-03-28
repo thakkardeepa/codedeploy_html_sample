@@ -2,6 +2,6 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /usr/share/nginx1/html
+    destination: /usr/share/nginx2/html
 hooks:
 
